@@ -1,5 +1,5 @@
 //require the database of notes as a variable
-const notes = require("../db/db.json");
+const notes = require("../db/db.js");
 
 //export a function to set the get and post routes
 module.exports = function(app) {
