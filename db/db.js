@@ -1,9 +1,6 @@
-//declare an array of objects to handle the notes, and export them for future editing/saving/deleting
+//declare an array  to handle the notes, and export them for future editing/saving/deleting. each one will have an ID number incremented based on its position in the array.
+
 const notes = [
-    {
-        "title":"Test Title",
-        "text":"Test text"
-    }
 ];
 
 module.exports = notes;
