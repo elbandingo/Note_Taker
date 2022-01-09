@@ -26,7 +26,7 @@ module.exports = function(app) {
 
             if (currentNote.id == id) {
                 noteArr.splice(i,1);
-                fs.writeFileSync(path.join(__dirname, '../db/db.js'),JSON.stringify(noteArr,null,2));
+                fs.appendFileSync(path.join(__dirname, '../db/db.js'),JSON.stringify(noteArr,null,2));
                 break;
             }
         }
